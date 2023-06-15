@@ -1,0 +1,38 @@
+.register {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.rContainer {
+display: flex;
+flex-direction: column;
+gap: 10px;
+}
+
+.rInput{
+  height: 20px;
+  padding: 10px;
+}
+  
+.rButton {
+  border: none;
+  padding: 10px 20px;
+  background-color: #c22700;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.errorDiv {
+  display: flex;
+  background-color: #e49090;
+  border: 2px solid rgb(191, 70, 70);
+  padding: 20px;
+  align-items: center;
+  justify-content: center;
+}
+
